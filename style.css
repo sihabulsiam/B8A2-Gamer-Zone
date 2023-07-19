@@ -1,11 +1,14 @@
 .container{
     display: flex;
     justify-content:space-around ;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+
 }
 .container-item{
-display: flex;
-gap: 10px;
-align-items: center;
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }
 .about-item{
     display: flex;
@@ -13,9 +16,6 @@ align-items: center;
 }
 .about-item p{
     padding-right: 20px;
-}
-.container-img{
-    width: 20%;
 }
 .item{
     font-size: 30px;
@@ -33,4 +33,59 @@ align-items: center;
     padding: 10px;
     gap: 5px;
     height: 20px;
+}
+.description{
+    display: flex;
+}
+.description-title{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+.title-1{
+    font-size: 40px;
+    margin: 0;
+}
+.title-2{
+    font-size: 70px;
+    margin: 0;
+}
+.font-item-1{
+    margin: 0;
+}
+.font-item-2{
+    margin: 0;
+}
+.font-item-3{
+    margin: 0;
+}
+.banner{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    display: flex;
+    justify-content: end;
+}
+.banner-container{
+    align-items: center;
+}
+.banner-title{
+    font-size: 40px;
+    margin: 0;
+    text-align: end;
+}
+.banner-item{
+    font-size: 18px;
+    color: #534C64;
+    text-align: end;
+}
+.btn-primary{
+    color: #FFF;
+padding: 21px 40px;
+gap: 10px;
+border-radius: 48px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+.banner-item-1{
+    text-align: end;
 }
